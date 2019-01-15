@@ -1,0 +1,21 @@
+# 忽略所有字节码文件
+*.class
+
+# 忽略所有的包
+*.war
+
+# 忽略target下所有文件
+target/
+
+# 忽略idea相关配置
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# 忽略临时文件
+*.log
+*.cache
+*.tmp
+
