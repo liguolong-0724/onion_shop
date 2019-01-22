@@ -41,7 +41,6 @@
     </appender>
 
     <logger name="com.onion" additivity="false" level="INFO" >
-        <appender-ref ref="onion" />
         <appender-ref ref="console"/>
     </logger>
 
@@ -50,7 +49,6 @@
 
     <root level="DEBUG">
         <appender-ref ref="console"/>
-        <appender-ref ref="error"/>
     </root>
 
 </configuration>

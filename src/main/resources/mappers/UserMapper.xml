@@ -162,7 +162,7 @@
   <select id="selectLogin" resultMap="BaseResultMap" parameterType="map">
     select
     <include refid="Base_Column_List" />
-    from mmmal_user
+    from mmall_user
     where username = #{username} and password = #{password}
   </select>
 </mapper>
